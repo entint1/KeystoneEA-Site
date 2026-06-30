@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Keystone EA™ — A modern enterprise architecture standard</title>
+<meta name="description" content="Keystone EA™ is a complete enterprise architecture standard: a layered metamodel of 19 object types, a rule-driven relationship system, six ready-to-use viewpoints, and a five-phase implementation methodology." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Cpath d='M6.2 5H19.8L17 21H9Z' fill='%23141412'/%3E%3Crect x='3' y='3.5' width='20' height='2.4' rx='1.2' fill='%23141412'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/styles.css" />
+<script>(function(){try{var t=localStorage.getItem('kea-theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+</head>
+<body>
+
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="index.html" aria-label="Keystone EA home">
+    <svg class="brand-mark" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+      <rect x="2.5" y="3.2" width="21" height="2.6" rx="1.3" fill="currentColor"/>
+      <path d="M6.4 6.6 H19.6 L16.7 21.6 H9.3 Z" fill="currentColor"/>
+    </svg>
+    <span class="brand-name">Keystone EA<sup>™</sup></span>
+  </a>
+  <div class="nav-links" id="navlinks">
+    <a class="nav-link" href="index.html">Overview</a>
+    <a class="nav-link" href="metamodel.html">Metamodel</a>
+    <a class="nav-link" href="viewpoints.html">Viewpoints</a>
+    <a class="nav-link" href="methodology.html">Methodology</a>
+  </div>
+  <div class="nav-right">
+    <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle colour theme" title="Toggle theme">
+      <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+    </button>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</div></nav>
+
+<!-- ── HERO ───────────────────────────────────────────── -->
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-badge"><span class="dot"></span> Enterprise Architecture Standard · v1.0</div>
+    <h1>One standard,<br><span class="muted">from strategy to technology.</span></h1>
+    <p class="hero-sub">Keystone EA™ is a complete, opinionated enterprise architecture standard — a layered metamodel, a rule-governed relationship system, six ready-to-use viewpoints, and a five-phase methodology to put it all into practice.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="metamodel.html">Explore the metamodel
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn-ghost" href="methodology.html">Read the methodology</a>
+    </div>
+  </div>
+</header>
+
+<!-- ── STAT BAND ──────────────────────────────────────── -->
+<section class="wrap" style="margin-top:8px">
+  <div class="stat-band reveal">
+    <div class="stat"><div class="stat-n">7</div><div class="stat-l">Architecture layers</div></div>
+    <div class="stat"><div class="stat-n">19</div><div class="stat-l">Object types</div></div>
+    <div class="stat"><div class="stat-n">6</div><div class="stat-l">Relationship types</div></div>
+    <div class="stat"><div class="stat-n">6</div><div class="stat-l">Viewpoints</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">Methodology phases</div></div>
+    <div class="stat"><div class="stat-n">2</div><div class="stat-l">Delivery tracks</div></div>
+  </div>
+</section>
+
+<!-- ── WHAT IS ────────────────────────────────────────── -->
+<section class="section-pad">
+  <div class="wrap">
+    <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:start" class="what-grid">
+      <div class="reveal">
+        <span class="eyebrow">What it is</span>
+        <h2 class="h-sec">A single connected model of the&nbsp;enterprise.</h2>
+      </div>
+      <div class="prose reveal" style="padding-top:6px">
+        <p>Most enterprise architecture frameworks are either too heavy to maintain or too loose to trust. <strong>Keystone EA™</strong> is built for the middle: rigorous enough to keep a live repository consistent, light enough that a small team can actually run it.</p>
+        <p>It describes an organisation — its strategy, governance, business, data, applications and technology — as <strong>one model</strong>, where every element has a defined type and every link is governed by an explicit rule. From a board-level driver down to a database engine, everything traces through the same fabric.</p>
+        <p>The standard rests on three parts that fit together: a <strong>metamodel</strong>, a <strong>viewpoint library</strong>, and an <strong>implementation methodology</strong>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── THREE PILLARS ──────────────────────────────────── -->
+<section class="section-pad" style="padding-top:0">
+  <div class="wrap">
+    <div class="pillars">
+      <a class="card pillar reveal" href="metamodel.html">
+        <div class="pillar-top">
+          <div class="pillar-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.4"/><rect x="14" y="3" width="7" height="7" rx="1.4"/><rect x="8.5" y="14" width="7" height="7" rx="1.4"/><path d="M6.5 10v2.5a1.5 1.5 0 0 0 1.5 1.5h.5M17.5 10v2.5a1.5 1.5 0 0 1-1.5 1.5h-.5"/></svg></div>
+          <span class="pillar-num">01</span>
+        </div>
+        <h3>Metamodel</h3>
+        <p>Nineteen object types across seven layers, joined by six relationship types — with a complete rule set that defines exactly which links are valid between which objects.</p>
+        <span class="pillar-link">Object types & rules <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="card pillar reveal" href="viewpoints.html">
+        <div class="pillar-top">
+          <div class="pillar-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <span class="pillar-num">02</span>
+        </div>
+        <h3>Viewpoints</h3>
+        <p>Six curated perspectives — governance, strategy, capability, process, application and technology — each showing only the object types that matter to a specific stakeholder question.</p>
+        <span class="pillar-link">Browse viewpoints <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="card pillar reveal" href="methodology.html">
+        <div class="pillar-top">
+          <div class="pillar-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V6a2 2 0 0 1 2-2h9l5 5v11"/><path d="M8 12h8M8 16h5"/></svg></div>
+          <span class="pillar-num">03</span>
+        </div>
+        <h3>Methodology</h3>
+        <p>A five-phase implementation path — from Establish to Transform — across parallel Content and Architecture Readiness tracks, with AI-assisted workflows woven throughout.</p>
+        <span class="pillar-link">See the phases <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── LAYERED MODEL ──────────────────────────────────── -->
+<section class="section-pad" style="background:var(--bg-2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="wrap">
+    <div style="max-width:640px;margin-bottom:38px" class="reveal">
+      <span class="eyebrow">The layered model</span>
+      <h2 class="h-sec">Seven layers, top to bottom.</h2>
+      <p class="lede">Keystone EA™ stacks the enterprise into seven layers. Upper layers express intent; lower layers deliver it. Every object type lives in exactly one layer.</p>
+    </div>
+    <div class="layerstack reveal" id="layerstack"></div>
+  </div>
+</section>
+
+<!-- ── PRINCIPLES ─────────────────────────────────────── -->
+<section class="section-pad">
+  <div class="wrap">
+    <div style="max-width:640px;margin-bottom:38px" class="reveal">
+      <span class="eyebrow">Design principles</span>
+      <h2 class="h-sec">Opinionated where it counts.</h2>
+    </div>
+    <div class="feature-list">
+      <div class="card feature reveal">
+        <div class="f-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 13l9 5 9-5"/></svg></div>
+        <h4>Lean by design</h4>
+        <p>Nineteen object types — not hundreds. Enough to model any enterprise faithfully, few enough that the model stays readable and a small team can maintain it.</p>
+      </div>
+      <div class="card feature reveal">
+        <div class="f-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M8.5 6h7M6 8.5v7M18 8.5v7M8.5 18h7M7.8 7.8l8.4 8.4"/></svg></div>
+        <h4>Any-to-any, with rules</h4>
+        <p>A universal <em>Connection</em> means nothing is ever un-modelable, while a complete rules matrix governs the qualified relationships — so the model stays both flexible and consistent.</p>
+      </div>
+      <div class="card feature reveal">
+        <div class="f-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h4>Viewpoint-driven</h4>
+        <p>You never face the whole model at once. Viewpoints filter it down to the handful of object types that answer one stakeholder's question — governance, strategy, capability or integration.</p>
+      </div>
+      <div class="card feature reveal">
+        <div class="f-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M3 12h3M18 12h3M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3.4"/></svg></div>
+        <h4>AI-native delivery</h4>
+        <p>The methodology assumes a live repository accelerated by AI — from structuring an AI service portal early to autonomous impact analysis and predictive insight at maturity.</p>
+      </div>
+      <div class="card feature reveal">
+        <div class="f-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14"/><path d="M8 16l3-3 2 2 4-4"/></svg></div>
+        <h4>Traceable end to end</h4>
+        <p>Realization links thread a single line of sight from a strategic driver, through capabilities and applications, down to the infrastructure that ultimately delivers it.</p>
+      </div>
+      <div class="card feature reveal">
+        <div class="f-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h4>Governed and current</h4>
+        <p>Principals and standards are first-class objects, so accountability and compliance are modelled — not bolted on — and the technology reference model is wired into governance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ────────────────────────────────────────────── -->
+<section class="section-pad" style="padding-top:0">
+  <div class="wrap">
+    <div class="card reveal" style="padding:clamp(34px,5vw,60px);text-align:center;background:var(--card)">
+      <span class="eyebrow no-rule" style="justify-content:center">Start exploring</span>
+      <h2 class="h-sec" style="margin-top:14px">See how the pieces connect.</h2>
+      <p class="lede" style="margin:16px auto 28px">Open the metamodel to inspect all nineteen object types and the interactive relationship rules matrix.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a class="btn btn-primary" href="metamodel.html">Open the metamodel
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="viewpoints.html">View the viewpoints</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────────────────── -->
+<footer class="footer"><div class="wrap footer-inner">
+  <div class="footer-brand">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+        <rect x="2.5" y="3.2" width="21" height="2.6" rx="1.3" fill="currentColor"/>
+        <path d="M6.4 6.6 H19.6 L16.7 21.6 H9.3 Z" fill="currentColor"/>
+      </svg>
+      <span class="brand-name">Keystone EA<sup>™</sup></span>
+    </a>
+    <p>A modern enterprise architecture standard — a layered metamodel, a rule-governed relationship system, six viewpoints, and a five-phase implementation methodology.</p>
+  </div>
+  <div class="footer-cols">
+    <div class="footer-col">
+      <h5>The standard</h5>
+      <a href="index.html">Overview</a>
+      <a href="metamodel.html">Metamodel</a>
+      <a href="viewpoints.html">Viewpoints</a>
+      <a href="methodology.html">Methodology</a>
+    </div>
+    <div class="footer-col">
+      <h5>Reference</h5>
+      <a href="metamodel.html#objects">Object types</a>
+      <a href="metamodel.html#relationships">Relationships</a>
+      <a href="metamodel.html#rules">Rules matrix</a>
+      <a href="viewpoints.html#matrix">Viewpoint matrix</a>
+    </div>
+  </div>
+</div>
+<div class="wrap footer-bottom">
+  <span>Keystone EA™ — Enterprise architecture standard</span>
+  <span>© <span id="year">2026</span> · All rights reserved</span>
+</div></footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+  /* Build the layered model stack */
+  (function () {
+    var host = document.getElementById('layerstack');
+    if (!host || !window.KEA) return;
+    host.innerHTML = KEA.LAYERS.map(function (L) {
+      var objs = KEA.OBJECTS.filter(function (o) { return o.layer === L.id; });
+      var chips = objs.map(function (o) {
+        return '<a class="obj-chip" href="metamodel.html#obj-' + o.name.replace(/\s+/g,'-').toLowerCase() + '">'
+          + '<span class="swatch" style="background:' + o.head + '"></span>' + o.name + '</a>';
+      }).join('');
+      return '<div class="layer-row" style="--accent:' + L.accent + ';--accent-soft:' + L.soft + '">'
+        + '<div class="layer-id"><span class="layer-pill" style="--accent:' + L.accent + ';--accent-soft:' + L.soft + '">' + L.name + '</span>'
+        + '<span class="layer-blurb">' + L.blurb + '</span></div>'
+        + '<div class="layer-objs">' + chips + '</div></div>';
+    }).join('');
+  })();
+</script>
+</body>
+</html>

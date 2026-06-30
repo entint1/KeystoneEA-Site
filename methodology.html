@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Methodology — Keystone EA™</title>
+<meta name="description" content="The Keystone EA™ implementation methodology: five phases — Establish, Structure, Activate, Optimize, Transform — across parallel Content and Architecture Readiness tracks." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Cpath d='M6.2 5H19.8L17 21H9Z' fill='%23141412'/%3E%3Crect x='3' y='3.5' width='20' height='2.4' rx='1.2' fill='%23141412'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/styles.css" />
+<script>(function(){try{var t=localStorage.getItem('kea-theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+</head>
+<body>
+
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="index.html" aria-label="Keystone EA home">
+    <svg class="brand-mark" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+      <rect x="2.5" y="3.2" width="21" height="2.6" rx="1.3" fill="currentColor"/>
+      <path d="M6.4 6.6 H19.6 L16.7 21.6 H9.3 Z" fill="currentColor"/>
+    </svg>
+    <span class="brand-name">Keystone EA<sup>™</sup></span>
+  </a>
+  <div class="nav-links" id="navlinks">
+    <a class="nav-link" href="index.html">Overview</a>
+    <a class="nav-link" href="metamodel.html">Metamodel</a>
+    <a class="nav-link" href="viewpoints.html">Viewpoints</a>
+    <a class="nav-link" href="methodology.html">Methodology</a>
+  </div>
+  <div class="nav-right">
+    <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle colour theme" title="Toggle theme">
+      <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+    </button>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</div></nav>
+
+<header class="page-head"><div class="wrap">
+  <div class="breadcrumb reveal"><a href="index.html">Keystone EA</a> &nbsp;/&nbsp; Methodology</div>
+  <div class="reveal" style="max-width:780px">
+    <span class="eyebrow">Pillar 03 — Methodology</span>
+    <h1 class="h-sec" style="font-size:clamp(32px,5vw,52px)">From first catalog to strategic&nbsp;driver.</h1>
+    <p class="lede">The metamodel and viewpoints describe <em>what</em> you model. The methodology describes <em>how you get there</em> — a staged path that takes an EA practice from an empty repository to an AI-powered function embedded in business planning.</p>
+  </div>
+  <div class="method-stats reveal" id="method-stats" style="margin-top:38px"></div>
+</div></header>
+
+<section class="section-pad" style="padding-top:clamp(20px,3vw,36px)">
+  <div class="wrap">
+    <div class="callout reveal" style="margin-bottom:36px">
+      <div class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v16M17 4v16M4 8h6M14 16h6M4 16h6M14 8h6"/></svg></div>
+      <div>
+        <h4>Two tracks run in parallel</h4>
+        <p>Every phase advances on two fronts at once. The <strong>Content</strong> track builds the substance stakeholders consume — catalogs, capability models, portfolio assessments. The <strong>Architecture Readiness</strong> track keeps the practice itself fit — model quality, governance, viewpoints, and the AI service portal. Select a phase to explore both.</p>
+      </div>
+    </div>
+
+    <div class="phase-rail reveal" id="phase-rail"></div>
+    <div class="reveal" id="phase-panel"></div>
+  </div>
+</section>
+
+<footer class="footer"><div class="wrap footer-inner">
+  <div class="footer-brand">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+        <rect x="2.5" y="3.2" width="21" height="2.6" rx="1.3" fill="currentColor"/>
+        <path d="M6.4 6.6 H19.6 L16.7 21.6 H9.3 Z" fill="currentColor"/>
+      </svg>
+      <span class="brand-name">Keystone EA<sup>™</sup></span>
+    </a>
+    <p>A modern enterprise architecture standard — a layered metamodel, a rule-governed relationship system, six viewpoints, and a five-phase implementation methodology.</p>
+  </div>
+  <div class="footer-cols">
+    <div class="footer-col">
+      <h5>The standard</h5>
+      <a href="index.html">Overview</a>
+      <a href="metamodel.html">Metamodel</a>
+      <a href="viewpoints.html">Viewpoints</a>
+      <a href="methodology.html">Methodology</a>
+    </div>
+    <div class="footer-col">
+      <h5>The phases</h5>
+      <a href="#" data-jump="0">01 — Establish</a>
+      <a href="#" data-jump="1">02 — Structure</a>
+      <a href="#" data-jump="2">03 — Activate</a>
+      <a href="#" data-jump="3">04 — Optimize</a>
+      <a href="#" data-jump="4">05 — Transform</a>
+    </div>
+  </div>
+</div>
+<div class="wrap footer-bottom">
+  <span>Keystone EA™ — Enterprise architecture standard</span>
+  <span>© <span id="year">2026</span> · All rights reserved</span>
+</div></footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/methodology.js"></script>
+</body>
+</html>
