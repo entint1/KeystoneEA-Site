@@ -147,7 +147,7 @@ window.KEA = (function () {
           { name:'Metadata & Relationship Data', desc:'Import or add data to address gaps identified in the readiness assessment, using platform integrations and connectors where available to reduce manual effort.' },
         ]},
         { task:'AI Service Portal', items:[
-          { name:'AI Service Structure Definition', ai:true, desc:'Define how Enterprise Insight’s AI assistant will be structured and accessed within the organization — including which use cases are in scope, how the service connects to existing workflows, and what guardrails are required.' },
+          { name:'AI Service Structure Definition', ai:true, desc:'Define how the platform’s AI assistant will be structured and accessed within the organization — including which use cases are in scope, how the service connects to existing workflows, and what guardrails are required.' },
         ]},
       ]},
     { n:'02', id:'structure', name:'Structure', pc:'#0F766E', soft:'var(--l-governance-soft)',
